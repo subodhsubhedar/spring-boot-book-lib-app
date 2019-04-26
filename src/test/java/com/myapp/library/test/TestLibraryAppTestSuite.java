@@ -25,7 +25,7 @@ import com.myapp.library.menu.service.LibraryServiceUnitTestManager;
 public class TestLibraryAppTestSuite {
 
 	public static void main(String[] args) {
-		Result result = JUnitCore.runClasses(LibraryAppTestSuite.class);
+		Result result = JUnitCore.runClasses(TestLibraryAppTestSuite.class);
 		int i = 1;
 
 		for (Failure failure : result.getFailures()) {
