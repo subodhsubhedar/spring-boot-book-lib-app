@@ -22,7 +22,7 @@ import com.myapp.library.menu.service.LibraryServiceUnitTestManager;
 		LibrarySubjectControllerTestManager.class, LibraryBookControllerTestManager.class,
 		LibraryErrorControllerTestManager.class, LibraryDaoIntegrationTestManager.class,
 		LibraryServiceIntegrationTestManager.class, LibraryServiceUnitTestManager.class })
-public class LibraryAppTestSuite {
+public class TestLibraryAppTestSuite {
 
 	public static void main(String[] args) {
 		Result result = JUnitCore.runClasses(LibraryAppTestSuite.class);
