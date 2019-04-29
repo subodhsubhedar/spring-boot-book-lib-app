@@ -50,12 +50,12 @@ public class LibraryDaoIntegrationTestManager {
 
 		entityMngr.flush();
 
-		Book b1 = new Book(1L, "Junit with Spring", 1215, 1, LocalDate.now(), s1);
-		Book b2 = new Book(2L, "Spring Boot Fundamentals", 1218, 2, LocalDate.now(), s2);
-		Book b3 = new Book(3L, "Spring Boot Workshop", 2000, 1, LocalDate.now(), s2);
-		Book b4 = new Book(4L, "Learning Maven", 2001, 1, LocalDate.now(), s3);
-		Book b5 = new Book(5L, "Building projects with Maven", 1800, 1, LocalDate.now(), s3);
-		Book b6 = new Book(6L, "Jenkins in a nutshell", 1789, 1, LocalDate.now(), s4);
+		Book b1 = new Book(0, "Junit with Spring", 1215, 1, LocalDate.now(), s1);
+		Book b2 = new Book(0, "Spring Boot Fundamentals", 1218, 2, LocalDate.now(), s2);
+		Book b3 = new Book(0, "Spring Boot Workshop", 2000, 1, LocalDate.now(), s2);
+		Book b4 = new Book(0, "Learning Maven", 2001, 1, LocalDate.now(), s3);
+		Book b5 = new Book(0, "Building projects with Maven", 1800, 1, LocalDate.now(), s3);
+		Book b6 = new Book(0, "Jenkins in a nutshell", 1789, 1, LocalDate.now(), s4);
 
 		entityMngr.persist(b1);
 		entityMngr.persist(b2);
